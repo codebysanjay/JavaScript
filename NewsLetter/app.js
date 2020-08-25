@@ -53,7 +53,7 @@ app.post("/",function(req,res){
 app.post("/failure",function(req,res){
     res.redirect("/");
 })
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 
 
 // 1ef6119150ce8537f983f1f3511076ba-us17
